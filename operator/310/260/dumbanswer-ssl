@@ -1,0 +1,19 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc260.mcc310.pub.3gppnetwork.org:80 was resolved.
+* IPv6: (none)
+* IPv4: 208.54.99.203
+*   Trying 208.54.99.203:80...
+* Connected to config.rcs.mnc260.mcc310.pub.3gppnetwork.org (208.54.99.203) port 80
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=310260087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc260.mcc310.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 400 Bad Request
+< Warning: 299 RCSConfig "RCS configuration parameters must not be sent over unencrypted channels"
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host config.rcs.mnc260.mcc310.pub.3gppnetwork.org left intact

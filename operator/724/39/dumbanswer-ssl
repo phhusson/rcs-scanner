@@ -1,0 +1,32 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc039.mcc724.pub.3gppnetwork.org:80 was resolved.
+* IPv6: (none)
+* IPv4: 72.14.246.6
+*   Trying 72.14.246.6:80...
+* Connected to config.rcs.mnc039.mcc724.pub.3gppnetwork.org (72.14.246.6) port 80
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=724391087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc039.mcc724.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 511 Network Authentication Required
+< Content-Type: text/xml; charset=utf-8
+< Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: Mon, 01 Jan 1990 00:00:00 GMT
+< Date: Mon, 04 Mar 2024 23:30:51 GMT
+< Cross-Origin-Opener-Policy: same-origin
+< Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+< Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/RcsAcsHttp/cspreport
+< Content-Security-Policy: script-src 'nonce-ZldxqUIywG7uybx2YAE3vg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/RcsAcsHttp/cspreport;worker-src 'self'
+< Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+< Server: ESF
+< Content-Length: 0
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+* Connection #0 to host config.rcs.mnc039.mcc724.pub.3gppnetwork.org left intact

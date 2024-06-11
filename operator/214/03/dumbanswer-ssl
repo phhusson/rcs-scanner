@@ -1,0 +1,79 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc003.mcc214.pub.3gppnetwork.org:443 was resolved.
+* IPv6: (none)
+* IPv4: 193.251.215.154
+*   Trying 193.251.215.154:443...
+* Connected to config.rcs.mnc003.mcc214.pub.3gppnetwork.org (193.251.215.154) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [6 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [3025 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / X25519 / RSASSA-PSS
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=FR; ST=ILE-DE-FRANCE; L=ISSY LES MOULINEAUX; O=Orange SA; CN=config.rcs.mnc003.mcc214.pub.3gppnetwork.org
+*  start date: Oct  5 00:00:00 2023 GMT
+*  expire date: Nov  4 23:59:59 2024 GMT
+*  subjectAltName: host "config.rcs.mnc003.mcc214.pub.3gppnetwork.org" matched cert's "config.rcs.mnc003.mcc214.pub.3gppnetwork.org"
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert TLS RSA SHA256 2020 CA1
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (2048/112 Bits/secBits), signed using sha1WithRSAEncryption
+* using HTTP/1.x
+} [5 bytes data]
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=214031087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc003.mcc214.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+{ [5 bytes data]
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Mar 2024 23:39:48 GMT
+< Content-Type: text/xml; charset=utf-8
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: Mon, 01 Jan 1990 00:00:00 GMT
+< Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/RcsAcsHttp/cspreport
+< Content-Security-Policy: script-src 'nonce-236xlwadyCq4Kq1tqnJldQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/RcsAcsHttp/cspreport;worker-src 'self'
+< Cross-Origin-Opener-Policy: same-origin
+< Cross-Origin-Resource-Policy: same-site
+< Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+< Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+< reporting-endpoints: default="/_/RcsAcsHttp/web-reports?context=eJzjMtHikmJw0JBieP7hJtNLIH6oeYfJ3eIO0w4fDxan9BmsAUCsnnWeVQuIubPPs_IBsRAPx5HtM9ezCWxoO7qSEQA3NRis"
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+< Accept-Ranges: none
+< Vary: Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,Accept-Encoding
+< P3P: CP="NOI"
+< Connection: close
+< Set-Cookie: cookie_wt=!fSOP6hyPQT1mEBKaKgEzSm/tHO4SV2NYdIdtLYtdA/9TN1+P4d6Qdaog/jxN8/Bs0CdOUlqu1OF0a5C6atj/0fp0AFkpb3lRsa2W4aQ6Io9peJdKSdJWe0Y3bx9oGVgy3RR5ZMf9po0Kyub0h4cZIAB5LAFtxiQ=; path=/; Httponly; Secure ; SameSite=None
+< Set-Cookie: TS011e2867=01306ea61e78e20a9a57b08f6369030b657035c01c48ddbfc5de8d1918504cf7144651419553f5440e6cca1b293a1a89c4beb75705; Path=/ ; Secure ; SameSite=None
+< Transfer-Encoding: chunked
+< 
+{ [247 bytes data]
+100   247    0   247    0     0   1882      0 --:--:-- --:--:-- --:--:--  1871
+* Closing connection
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS alert, close notify (256):
+} [2 bytes data]

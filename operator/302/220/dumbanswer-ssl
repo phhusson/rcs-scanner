@@ -1,0 +1,23 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc220.mcc302.pub.3gppnetwork.org:80 was resolved.
+* IPv6: 2a00:1450:4007:818::2013
+* IPv4: 142.250.178.147
+*   Trying [2a00:1450:4007:818::2013]:80...
+* Connected to config.rcs.mnc220.mcc302.pub.3gppnetwork.org (2a00:1450:4007:818::2013) port 80
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=302220087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc220.mcc302.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 404 Not Found
+< Date: Mon, 04 Mar 2024 23:34:42 GMT
+< Content-Type: text/html; charset=UTF-8
+< Server: ghs
+< Content-Length: 1899
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< 
+{ [1899 bytes data]
+100  1899  100  1899    0     0   133k      0 --:--:-- --:--:-- --:--:--  142k
+* Connection #0 to host config.rcs.mnc220.mcc302.pub.3gppnetwork.org left intact

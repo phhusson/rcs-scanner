@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wap-provisioningdoc version="1.1">
+  <characteristic type="VERS">
+    <parm name="version" value="0"/>
+    <parm name="validity" value="2592000"/>
+  </characteristic>
+  <characteristic type="MSG">
+    <parm name="title" value="Unauthorized"/>
+    <parm name="message" value="You are not eligible to use this service, please contact the customer care by calling 1777"/>
+    <parm name="Accept_btn" value="0"/>
+    <parm name="Reject_btn" value="1"/>
+  </characteristic>
+</wap-provisioningdoc>

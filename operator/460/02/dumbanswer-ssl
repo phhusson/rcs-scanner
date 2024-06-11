@@ -1,0 +1,22 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc002.mcc460.pub.3gppnetwork.org:80 was resolved.
+* IPv6: 2409:802e:804:214:10:3:1:386
+* IPv4: 223.92.24.21
+*   Trying [2409:802e:804:214:10:3:1:386]:80...
+*   Trying 223.92.24.21:80...
+* Connected to config.rcs.mnc002.mcc460.pub.3gppnetwork.org (2409:802e:804:214:10:3:1:386) port 80
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=460021087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc002.mcc460.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 511 Network Authentication Required
+< Server: IAG
+< Date: Mon, 04 Mar 2024 23:31:56 GMT
+< Content-Length: 0
+< Connection: close
+< X-Frame-Options: SAMEORIGIN
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection

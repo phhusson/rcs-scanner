@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wap-provisioningdoc version="1.1">
+  <characteristic type="VERS">
+    <parm name="version" value="0"/>
+    <parm name="validity" value="2592000"/>
+  </characteristic>
+</wap-provisioningdoc>

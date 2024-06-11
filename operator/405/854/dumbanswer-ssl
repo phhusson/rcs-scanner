@@ -1,0 +1,62 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc854.mcc405.pub.3gppnetwork.org:443 was resolved.
+* IPv6: 2405:200:1608:600:10:70:236:24
+* IPv4: 45.123.16.6
+*   Trying [2405:200:1608:600:10:70:236:24]:443...
+* Connected to config.rcs.mnc854.mcc405.pub.3gppnetwork.org (2405:200:1608:600:10:70:236:24) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [91 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [6206 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256 / prime256v1 / rsaEncryption
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: CN=rjil.acs.mcc405.pub.3gppnetwork.org
+*  start date: Oct  6 05:43:37 2023 GMT
+*  expire date: Sep  7 09:36:30 2024 GMT
+*  subjectAltName: host "config.rcs.mnc854.mcc405.pub.3gppnetwork.org" matched cert's "config.rcs.mnc854.mcc405.pub.3gppnetwork.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+* using HTTP/1.x
+} [5 bytes data]
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=405854087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc854.mcc405.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+{ [5 bytes data]
+< HTTP/1.1 403 
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+< Access-Control-Max-Age: 3600
+< Access-Control-Allow-Headers: x-requested-with, X-Auth-Token, Content-Type
+< Access-Control-Allow-Credentials: true
+< Content-Length: 0
+< Date: Mon, 04 Mar 2024 23:37:23 GMT
+< Server: WIT Application Server
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host config.rcs.mnc854.mcc405.pub.3gppnetwork.org left intact

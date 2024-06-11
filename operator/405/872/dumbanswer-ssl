@@ -1,0 +1,26 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host config.rcs.mnc872.mcc405.pub.3gppnetwork.org:80 was resolved.
+* IPv6: (none)
+* IPv4: 103.63.129.5
+*   Trying 103.63.129.5:80...
+* Connected to config.rcs.mnc872.mcc405.pub.3gppnetwork.org (103.63.129.5) port 80
+> GET /?terminal_vendor=SamsungB&terminal_model=SM-N920T&client_version=RCSAndrd-1.0&IMSI=405872087937984&terminal_sw_version=N920TUVS2COKC&client_vendor=SEC&vers=0&rcs_profile=UP_2.4&Token=&SMS_port=37273&msisdn=+33646106146&instance_id_token=cmV3am9wZGVxcG8K&cs_version=5.1B&rcs_version=11.0 HTTP/1.1
+> Host: config.rcs.mnc872.mcc405.pub.3gppnetwork.org
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 511 
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+< Access-Control-Max-Age: 3600
+< Access-Control-Allow-Headers: x-requested-with, X-Auth-Token, Content-Type
+< Access-Control-Allow-Credentials: true
+< Content-Type: text/html;charset=utf-8
+< Content-Language: en
+< Content-Length: 0
+< Date: Mon, 04 Mar 2024 23:36:56 GMT
+< Server: WIT Application Server
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host config.rcs.mnc872.mcc405.pub.3gppnetwork.org left intact
